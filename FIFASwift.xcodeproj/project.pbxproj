@@ -12,6 +12,7 @@
 		F6CC025919501D5C0081D4A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CC025719501D5C0081D4A8 /* Main.storyboard */; };
 		F6CC025B19501D5C0081D4A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CC025A19501D5C0081D4A8 /* Images.xcassets */; };
 		F6CC026719501D5C0081D4A8 /* FIFASwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC026619501D5C0081D4A8 /* FIFASwiftTests.swift */; };
+		F6CC02711950208E0081D4A8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC02701950208E0081D4A8 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 		F6CC026019501D5C0081D4A8 /* FIFASwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIFASwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CC026519501D5C0081D4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6CC026619501D5C0081D4A8 /* FIFASwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFASwiftTests.swift; sourceTree = "<group>"; };
+		F6CC02701950208E0081D4A8 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F6CC0272195021C40081D4A8 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 			children = (
 				F6CC025319501D5C0081D4A8 /* AppDelegate.swift */,
 				F6CC025519501D5C0081D4A8 /* ViewController.swift */,
+				F6CC02701950208E0081D4A8 /* DetailsViewController.swift */,
+				F6CC0272195021C40081D4A8 /* MyPlayground.playground */,
 				F6CC025719501D5C0081D4A8 /* Main.storyboard */,
 				F6CC025A19501D5C0081D4A8 /* Images.xcassets */,
 				F6CC025119501D5C0081D4A8 /* Supporting Files */,
@@ -210,6 +215,7 @@
 			files = (
 				F6CC025619501D5C0081D4A8 /* ViewController.swift in Sources */,
 				F6CC025419501D5C0081D4A8 /* AppDelegate.swift in Sources */,
+				F6CC02711950208E0081D4A8 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
